@@ -78,4 +78,6 @@ After user creation, you can optionally enable programmatic access for the IAM u
 These credentials are used for AWS CLI or SDK-based access. They should not be shared or stored in source code.
 
 Summary
-IAM enables secure user access and permission control in AWS. It is essential to create individual IAM users instead of using the root user. Configure a password policy to enforce security standards and set a custom account alias for a cleaner login experience. IAM user credentials should be stored securely and monitored regularly.
+IAM enables secure user access and permission control in AWS. It is essential to create individual IAM users instead of using the root user. 
+Configure a password policy to enforce security standards and set a custom account alias for a cleaner login experience. 
+IAM user credentials should be stored securely and monitored regularly.
