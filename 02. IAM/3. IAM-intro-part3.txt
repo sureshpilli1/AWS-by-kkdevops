@@ -323,11 +323,17 @@ Version
 This is the policy language version, not a date you change
 Always use this value for modern policies
 Statement
+Statement = a permission rule
+It is an array because a policy can have multiple rules
+Each object inside the array = one rule
+Policy = Collection of rules
+Statement = One rule
 This is the main rule block
 You can have multiple statements
 Each statement = one permission rule
 
 3. Inside Statement (core part)
+
 {
   "Sid": "AllowS3AccessToSpecificBucket",
   "Effect": "Allow",
